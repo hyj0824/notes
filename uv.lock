@@ -3,7 +3,16 @@ revision = 3
 requires-python = ">=3.11"
 
 [[package]]
-name = "csnote"
+name = "frontmatter"
+version = "3.0.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyyaml" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8b/de/7425e1c97db39ca6615ccf89d8c3b47f2ee8dfdabb754fc99f925ee1a702/frontmatter-3.0.8.tar.gz", hash = "sha256:d913619d20f607e03557d52a8bf9b249e0b3093c770c5213c0f1231d2c97fe73", size = 5254, upload-time = "2024-03-08T07:55:51.023Z" }
+
+[[package]]
+name = "notes"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -18,15 +27,6 @@ requires-dist = [
     { name = "pathlib", specifier = ">=1.0.1" },
     { name = "uuid", specifier = ">=1.30" },
 ]
-
-[[package]]
-name = "frontmatter"
-version = "3.0.8"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pyyaml" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/8b/de/7425e1c97db39ca6615ccf89d8c3b47f2ee8dfdabb754fc99f925ee1a702/frontmatter-3.0.8.tar.gz", hash = "sha256:d913619d20f607e03557d52a8bf9b249e0b3093c770c5213c0f1231d2c97fe73", size = 5254, upload-time = "2024-03-08T07:55:51.023Z" }
 
 [[package]]
 name = "pathlib"

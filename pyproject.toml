@@ -1,7 +1,7 @@
 [project]
-name = "csnote"
+name = "notes"
 version = "0.1.0"
-description = "Add your description here"
+description = "note manage tools"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
