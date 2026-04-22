@@ -1,0 +1,4 @@
+{
+    "mdnote.outputFormat": "webp",
+    "mdnote.path": "${documentDirName}/${hash}"
+}
